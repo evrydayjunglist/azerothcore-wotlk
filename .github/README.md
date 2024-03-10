@@ -13,6 +13,10 @@
 [![macos-build](https://github.com/azerothcore/azerothcore-wotlk/workflows/macos-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/azerothcore-wotlk/actions?query=workflow%3Amacos-build+branch%3Amaster+event%3Apush)
 [![docker-build](https://github.com/azerothcore/azerothcore-wotlk/workflows/docker-build/badge.svg?branch=master&event=push)](https://github.com/azerothcore/azerothcore-wotlk/actions?query=workflow%3Adocker-build+branch%3Amaster+event%3Apush)
 
+## evryCraft
+
+This is my personal build of azerothcore-wotlk, featuring [Playerbots](https://github.com/liyunfan1223/mod-playerbots) and [All Races All Classes](https://github.com/heyitsbench/mod-arac), among many other modules geared toward a single-player (or very small number of players) experience.
+
 ## Introduction
 
 AzerothCore is an open-source game server application and framework designed for hosting massively multiplayer online role-playing games (MMORPGs). It is based on the popular MMORPG World of Warcraft (WoW) and seeks to recreate the gameplay experience of the original game from patch 3.3.5a.
