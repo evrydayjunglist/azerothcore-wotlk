@@ -32,3 +32,9 @@
 [submodule "modules/mod-quest-loot-party"]
 	path = modules/mod-quest-loot-party
 	url = https://github.com/evrydayjunglist/mod-quest-loot-party
+[submodule "modules/mod-pvp-titles"]
+	path = modules/mod-pvp-titles
+	url = https://github.com/evrydayjunglist/mod-pvp-titles
+[submodule "modules/mod-pvpstats-announcer"]
+	path = modules/mod-pvpstats-announcer
+	url = https://github.com/azerothcore/mod-pvpstats-announcer
