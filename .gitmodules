@@ -17,3 +17,9 @@
 [submodule "modules/mod-transmog"]
 	path = modules/mod-transmog
 	url = https://github.com/evrydayjunglist/mod-transmog
+[submodule "modules/mod-solo-lfg"]
+	path = modules/mod-solo-lfg
+	url = https://github.com/evrydayjunglist/mod-solo-lfg
+[submodule "modules/mod-solocraft"]
+	path = modules/mod-solocraft
+	url = https://github.com/evrydayjunglist/mod-solocraft
