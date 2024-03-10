@@ -77,3 +77,15 @@
 [submodule "modules/mod-eluna"]
 	path = modules/mod-eluna
 	url = https://github.com/evrydayjunglist/mod-eluna
+[submodule "modules/mod-dynamic-xp"]
+	path = modules/mod-dynamic-xp
+	url = https://github.com/evrydayjunglist/mod-dynamic-xp
+[submodule "modules/mod-dynamic-loot-rates"]
+	path = modules/mod-dynamic-loot-rates
+	url = https://github.com/evrydayjunglist/mod-dynamic-loot-rates
+[submodule "modules/mod-duel-reset"]
+	path = modules/mod-duel-reset
+	url = https://github.com/evrydayjunglist/mod-duel-reset
+[submodule "modules/mod-custom-login"]
+	path = modules/mod-custom-login
+	url = https://github.com/evrydayjunglist/mod-custom-login
