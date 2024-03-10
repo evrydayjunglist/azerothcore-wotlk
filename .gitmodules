@@ -23,3 +23,12 @@
 [submodule "modules/mod-solocraft"]
 	path = modules/mod-solocraft
 	url = https://github.com/evrydayjunglist/mod-solocraft
+[submodule "modules/mod-reagent-bank-account"]
+	path = modules/mod-reagent-bank-account
+	url = https://github.com/evrydayjunglist/mod-reagent-bank-account
+[submodule "modules/mod-racial-trait-swap"]
+	path = modules/mod-racial-trait-swap
+	url = https://github.com/evrydayjunglist/mod-racial-trait-swap
+[submodule "modules/mod-quest-loot-party"]
+	path = modules/mod-quest-loot-party
+	url = https://github.com/evrydayjunglist/mod-quest-loot-party
