@@ -38,3 +38,9 @@
 [submodule "modules/mod-pvpstats-announcer"]
 	path = modules/mod-pvpstats-announcer
 	url = https://github.com/azerothcore/mod-pvpstats-announcer
+[submodule "modules/mod-ptr-template"]
+	path = modules/mod-ptr-template
+	url = https://github.com/heyitsbench/mod-ptr-template
+[submodule "modules/mod-npc-titles-tokens"]
+	path = modules/mod-npc-titles-tokens
+	url = https://github.com/evrydayjunglist/mod-npc-titles-tokens
