@@ -4,3 +4,7 @@
 [submodule "modules/mod-arac"]
 	path = modules/mod-arac
 	url = https://github.com/evrydayjunglist/mod-arac
+[submodule "modules/mod-random-suffix"]
+	path = modules/mod-random-suffix
+	url = https://github.com/evrydayjunglist/mod-random-suffix
+	branch = feat/mod-random-suffix
