@@ -11,3 +11,9 @@
 [submodule "modules/mod-zone-difficulty"]
 	path = modules/mod-zone-difficulty
 	url = https://github.com/evrydayjunglist/mod-zone-difficulty
+[submodule "modules/mod-weekendbonus"]
+	path = modules/mod-weekendbonus
+	url = https://github.com/evrydayjunglist/mod-weekendbonus
+[submodule "modules/mod-transmog"]
+	path = modules/mod-transmog
+	url = https://github.com/evrydayjunglist/mod-transmog
