@@ -44,3 +44,15 @@
 [submodule "modules/mod-npc-titles-tokens"]
 	path = modules/mod-npc-titles-tokens
 	url = https://github.com/evrydayjunglist/mod-npc-titles-tokens
+[submodule "modules/mod-npc-spectator"]
+	path = modules/mod-npc-spectator
+	url = https://github.com/Gozzim/mod-npc-spectator
+[submodule "modules/mod-money-for-kills"]
+	path = modules/mod-money-for-kills
+	url = https://github.com/evrydayjunglist/mod-money-for-kills
+[submodule "modules/mod-leech"]
+	path = modules/mod-leech
+	url = https://github.com/evrydayjunglist/mod-leech
+[submodule "modules/mod-learnspells"]
+	path = modules/mod-learnspells
+	url = https://github.com/evrydayjunglist/mod-learnspells
