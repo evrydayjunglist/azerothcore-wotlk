@@ -8,3 +8,6 @@
 	path = modules/mod-random-suffix
 	url = https://github.com/evrydayjunglist/mod-random-suffix
 	branch = feat/mod-random-suffix
+[submodule "modules/mod-zone-difficulty"]
+	path = modules/mod-zone-difficulty
+	url = https://github.com/evrydayjunglist/mod-zone-difficulty
