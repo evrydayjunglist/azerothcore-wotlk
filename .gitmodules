@@ -37,16 +37,16 @@
 	url = https://github.com/evrydayjunglist/mod-pvp-titles
 [submodule "modules/mod-pvpstats-announcer"]
 	path = modules/mod-pvpstats-announcer
-	url = https://github.com/azerothcore/mod-pvpstats-announcer
+	url = https://github.com/evrydayjunglist/mod-pvpstats-announcer
 [submodule "modules/mod-ptr-template"]
 	path = modules/mod-ptr-template
-	url = https://github.com/heyitsbench/mod-ptr-template
+	url = https://github.com/evrydayjunglist/mod-ptr-template
 [submodule "modules/mod-npc-titles-tokens"]
 	path = modules/mod-npc-titles-tokens
 	url = https://github.com/evrydayjunglist/mod-npc-titles-tokens
 [submodule "modules/mod-npc-spectator"]
 	path = modules/mod-npc-spectator
-	url = https://github.com/Gozzim/mod-npc-spectator
+	url = https://github.com/evrydayjunglist/mod-npc-spectator
 [submodule "modules/mod-money-for-kills"]
 	path = modules/mod-money-for-kills
 	url = https://github.com/evrydayjunglist/mod-money-for-kills
@@ -68,3 +68,12 @@
 [submodule "modules/mod-guildfunds"]
 	path = modules/mod-guildfunds
 	url = https://github.com/evrydayjunglist/mod-guildfunds
+[submodule "modules/mod-groupquests"]
+	path = modules/mod-groupquests
+	url = https://github.com/evrydayjunglist/mod-groupquests
+[submodule "modules/mod-globalchat"]
+	path = modules/mod-globalchat
+	url = https://github.com/evrydayjunglist/mod-globalchat
+[submodule "modules/mod-eluna"]
+	path = modules/mod-eluna
+	url = https://github.com/evrydayjunglist/mod-eluna
