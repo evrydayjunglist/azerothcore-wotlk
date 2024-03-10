@@ -56,3 +56,15 @@
 [submodule "modules/mod-learnspells"]
 	path = modules/mod-learnspells
 	url = https://github.com/evrydayjunglist/mod-learnspells
+[submodule "modules/mod-ip-tracker"]
+	path = modules/mod-ip-tracker
+	url = https://github.com/evrydayjunglist/mod-ip-tracker
+[submodule "modules/mod-instance-reset"]
+	path = modules/mod-instance-reset
+	url = https://github.com/evrydayjunglist/mod-instance-reset
+[submodule "modules/mod-individual-xp"]
+	path = modules/mod-individual-xp
+	url = https://github.com/evrydayjunglist/mod-individual-xp
+[submodule "modules/mod-guildfunds"]
+	path = modules/mod-guildfunds
+	url = https://github.com/evrydayjunglist/mod-guildfunds
