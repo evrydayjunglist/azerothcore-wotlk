@@ -122,3 +122,27 @@
 [submodule "modules/mod-bg-reward"]
 	path = modules/mod-bg-reward
 	url = https://github.com/evrydayjunglist/mod-bg-reward
+[submodule "modules/mod-npc-enchanter"]
+	path = modules/mod-npc-enchanter
+	url = https://github.com/evrydayjunglist/mod-npc-enchanter
+[submodule "modules/mod-auto-revive"]
+	path = modules/mod-auto-revive
+	url = https://github.com/evrydayjunglist/mod-auto-revive
+[submodule "modules/mod-buff-command"]
+	path = modules/mod-buff-command
+	url = https://github.com/evrydayjunglist/mod-buff-command
+[submodule "modules/mod-npc-all-mounts"]
+	path = modules/mod-npc-all-mounts
+	url = https://github.com/evrydayjunglist/mod-npc-all-mounts
+[submodule "modules/mod-npc-beastmaster"]
+	path = modules/mod-npc-beastmaster
+	url = https://github.com/evrydayjunglist/mod-npc-beastmaster
+[submodule "modules/mod-reward-played-time"]
+	path = modules/mod-reward-played-time
+	url = https://github.com/evrydayjunglist/mod-reward-played-time
+[submodule "modules/mod-congrats-on-level"]
+	path = modules/mod-congrats-on-level
+	url = https://github.com/evrydayjunglist/mod-congrats-on-level
+[submodule "modules/mod-levelreward"]
+	path = modules/mod-levelreward
+	url = https://github.com/evrydayjunglist/mod-levelreward
