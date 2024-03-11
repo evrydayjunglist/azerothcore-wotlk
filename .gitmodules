@@ -89,9 +89,6 @@
 [submodule "modules/mod-boss-announcer"]
 	path = modules/mod-boss-announcer
 	url = https://github.com/evrydayjunglist/mod-boss-announcer
-[submodule "modules/mod-bg-item-reward"]
-	path = modules/mod-bg-item-reward
-	url = https://github.com/evrydayjunglist/mod-bg-item-reward
 [submodule "modules/mod-better-item-reloading"]
 	path = modules/mod-better-item-reloading
 	url = https://github.com/evrydayjunglist/mod-better-item-reloading
@@ -122,3 +119,6 @@
 [submodule "modules/mod-npc-titles-tokens"]
 	path = modules/mod-npc-titles-tokens
 	url = https://github.com/evrydayjunglist/mod-npc-titles-tokens
+[submodule "modules/mod-bg-reward"]
+	path = modules/mod-bg-reward
+	url = https://github.com/evrydayjunglist/mod-bg-reward
