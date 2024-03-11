@@ -89,3 +89,27 @@
 [submodule "modules/mod-custom-login"]
 	path = modules/mod-custom-login
 	url = https://github.com/evrydayjunglist/mod-custom-login
+[submodule "modules/mod-boss-announcer"]
+	path = modules/mod-boss-announcer
+	url = https://github.com/evrydayjunglist/mod-boss-announcer
+[submodule "modules/mod-bg-item-reward"]
+	path = modules/mod-bg-item-reward
+	url = https://github.com/evrydayjunglist/mod-bg-item-reward
+[submodule "modules/mod-better-item-reloading"]
+	path = modules/mod-better-item-reloading
+	url = https://github.com/evrydayjunglist/mod-better-item-reloading
+[submodule "modules/mod-auctionator"]
+	path = modules/mod-auctionator
+	url = https://github.com/evrydayjunglist/mod-auctionator
+[submodule "modules/mod-assistant"]
+	path = modules/mod-assistant
+	url = https://github.com/evrydayjunglist/mod-assistant
+[submodule "modules/mod-aoe-loot"]
+	path = modules/mod-aoe-loot
+	url = https://github.com/evrydayjunglist/mod-aoe-loot
+[submodule "modules/mod-anticheat"]
+	path = modules/mod-anticheat
+	url = https://github.com/evrydayjunglist/mod-anticheat
+[submodule "modules/mod-ah-bot"]
+	path = modules/mod-ah-bot
+	url = https://github.com/evrydayjunglist/mod-ah-bot
