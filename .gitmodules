@@ -146,3 +146,6 @@
 [submodule "modules/mod-levelreward"]
 	path = modules/mod-levelreward
 	url = https://github.com/evrydayjunglist/mod-levelreward
+[submodule "modules/mod-TimeIsTime"]
+	path = modules/mod-TimeIsTime
+	url = https://github.com/evrydayjunglist/mod-TimeIsTime
