@@ -41,9 +41,6 @@
 [submodule "modules/mod-ptr-template"]
 	path = modules/mod-ptr-template
 	url = https://github.com/evrydayjunglist/mod-ptr-template
-[submodule "modules/mod-npc-titles-tokens"]
-	path = modules/mod-npc-titles-tokens
-	url = https://github.com/evrydayjunglist/mod-npc-titles-tokens
 [submodule "modules/mod-npc-spectator"]
 	path = modules/mod-npc-spectator
 	url = https://github.com/evrydayjunglist/mod-npc-spectator
