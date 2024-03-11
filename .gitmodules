@@ -113,3 +113,12 @@
 [submodule "modules/mod-ah-bot"]
 	path = modules/mod-ah-bot
 	url = https://github.com/evrydayjunglist/mod-ah-bot
+[submodule "modules/mod-accountbound"]
+	path = modules/mod-accountbound
+	url = https://github.com/evrydayjunglist/mod-accountbound
+[submodule "modules/mod-account-achievements"]
+	path = modules/mod-account-achievements
+	url = https://github.com/evrydayjunglist/mod-account-achievements
+[submodule "modules/DungeonRespawn"]
+	path = modules/DungeonRespawn
+	url = https://github.com/evrydayjunglist/DungeonRespawn
