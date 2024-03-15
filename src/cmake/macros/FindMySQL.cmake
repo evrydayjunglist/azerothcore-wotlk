@@ -156,12 +156,15 @@ find_path(MYSQL_INCLUDE_DIR
     /usr/local/include/mysql
     /usr/local/mysql/include
     "C:/tools/mysql/current/include" # chocolatey package
+	"$ENV{ProgramW6432}/MySQL/MySQL Server 8.2/include"
     "$ENV{ProgramW6432}/MySQL/MySQL Server 8.1/include"
     "$ENV{ProgramW6432}/MySQL/MySQL Server 8.0/include"
     "$ENV{ProgramW6432}/MySQL/MySQL Server 5.7/include"
+	"$ENV{ProgramFiles}/MySQL/MySQL Server 8.2/include"
     "$ENV{ProgramFiles}/MySQL/MySQL Server 8.1/include"
     "$ENV{ProgramFiles}/MySQL/MySQL Server 8.0/include"
     "$ENV{ProgramFiles}/MySQL/MySQL Server 5.7/include"
+	"$ENV{SystemDrive}/MySQL/MySQL Server 8.2/include"
     "$ENV{SystemDrive}/MySQL/MySQL Server 8.1/include"
     "$ENV{SystemDrive}/MySQL/MySQL Server 8.0/include"
     "$ENV{SystemDrive}/MySQL/MySQL Server 5.7/include"
@@ -195,12 +198,15 @@ if( WIN32 )
     PATHS
       ${MYSQL_ADD_LIBRARIES_PATH}
       "C:/tools/mysql/current/lib" # chocolatey package
+	  "$ENV{ProgramW6432}/MySQL/MySQL Server 8.2/lib"
       "$ENV{ProgramW6432}/MySQL/MySQL Server 8.1/lib"
       "$ENV{ProgramW6432}/MySQL/MySQL Server 8.0/lib"
       "$ENV{ProgramW6432}/MySQL/MySQL Server 5.7/lib"
+	  "$ENV{ProgramFiles}/MySQL/MySQL Server 8.2/lib"
       "$ENV{ProgramFiles}/MySQL/MySQL Server 8.1/lib"
       "$ENV{ProgramFiles}/MySQL/MySQL Server 8.0/lib"
       "$ENV{ProgramFiles}/MySQL/MySQL Server 5.7/lib"
+	  "$ENV{SystemDrive}/MySQL/MySQL Server 8.2/lib"
       "$ENV{SystemDrive}/MySQL/MySQL Server 8.1/lib"
       "$ENV{SystemDrive}/MySQL/MySQL Server 8.0/lib"
       "$ENV{SystemDrive}/MySQL/MySQL Server 5.7/lib"
@@ -242,12 +248,15 @@ if( WIN32 )
   find_program(MYSQL_EXECUTABLE mysql
     PATHS
       "C:/tools/mysql/current/bin" # chocolatey package
+	  "$ENV{ProgramW6432}/MySQL/MySQL Server 8.2/bin"
       "$ENV{ProgramW6432}/MySQL/MySQL Server 8.1/bin"
       "$ENV{ProgramW6432}/MySQL/MySQL Server 8.0/bin"
       "$ENV{ProgramW6432}/MySQL/MySQL Server 5.7/bin"
+	  "$ENV{ProgramFiles}/MySQL/MySQL Server 8.2/bin"
       "$ENV{ProgramFiles}/MySQL/MySQL Server 8.1/bin"
       "$ENV{ProgramFiles}/MySQL/MySQL Server 8.0/bin"
       "$ENV{ProgramFiles}/MySQL/MySQL Server 5.7/bin"
+	  "$ENV{SystemDrive}/MySQL/MySQL Server 8.2/bin"
       "$ENV{SystemDrive}/MySQL/MySQL Server 8.1/bin"
       "$ENV{SystemDrive}/MySQL/MySQL Server 8.0/bin"
       "$ENV{SystemDrive}/MySQL/MySQL Server 5.7/bin"
