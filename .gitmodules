@@ -147,3 +147,15 @@
 	path = modules/mod-levelreward
 	url = https://github.com/evrydayjunglist/mod-levelreward
 
+[submodule "modules/mod-cfbg"]
+	path = modules/mod-cfbg
+	url = https://github.com/evrydayjunglist/mod-cfbg
+[submodule "modules/mod-low-level-arena"]
+	path = modules/mod-low-level-arena
+	url = https://github.com/evrydayjunglist/mod-low-level-arena
+[submodule "modules/mod-low-level-rbg"]
+	path = modules/mod-low-level-rbg
+	url = https://github.com/evrydayjunglist/mod-low-level-rbg
+[submodule "modules/mod-1v1-arena"]
+	path = modules/mod-1v1-arena
+	url = https://github.com/evrydayjunglist/mod-1v1-arena
