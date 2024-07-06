@@ -159,3 +159,6 @@
 [submodule "modules/mod-1v1-arena"]
 	path = modules/mod-1v1-arena
 	url = https://github.com/evrydayjunglist/mod-1v1-arena
+[submodule "modules/mod-autobalance"]
+	path = modules/mod-autobalance
+	url = https://github.com/evrydayjunglist/mod-autobalance
