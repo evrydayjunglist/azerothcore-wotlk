@@ -462,6 +462,8 @@ public:
     BossAI(Creature* creature, uint32 bossId);
     ~BossAI() override {}
 
+    float callForHelpRange;
+
     InstanceScript* const instance;
 
     bool CanRespawn() override;
@@ -486,6 +488,7 @@ public:
 
     void Reset() override { _Reset(); }
     void JustEngagedWith(Unit* /*who*/) override { _JustEngagedWith(); }
+    void EnterEvadeMode(EvadeReason why = EVADE_REASON_OTHER) override { _EnterEvadeMode(why); }
     void JustDied(Unit* /*killer*/) override { _JustDied(); }
     void JustReachedHome() override { _JustReachedHome(); }
 
@@ -494,6 +497,7 @@ protected:
     void _JustEngagedWith();
     void _JustDied();
     void _JustReachedHome() { me->setActive(false); }
+    void _EnterEvadeMode(EvadeReason why = EVADE_REASON_OTHER);
     [[nodiscard]] bool _ProccessHealthCheckEvent(uint8 healthPct, uint32 damage, std::function<void()> exec) const;
 
     void TeleportCheaters();

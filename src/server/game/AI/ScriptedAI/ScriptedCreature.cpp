@@ -571,6 +571,7 @@ BossAI::BossAI(Creature* creature, uint32 bossId) : ScriptedAI(creature),
     summons(creature),
     _bossId(bossId)
 {
+    callForHelpRange = 0.0f;
     if (instance)
         SetBoundary(instance->GetBossBoundary(bossId));
 
@@ -630,6 +631,13 @@ void BossAI::_JustEngagedWith()
     me->setActive(true);
     DoZoneInCombat();
     ScheduleTasks();
+    if (callForHelpRange)
+    {
+        ScheduleTimedEvent(0s, [&]
+        {
+            me->CallForHelp(callForHelpRange);
+        }, 2s);
+    }
     if (instance)
     {
         // bosses do not respawn, check only on enter combat
@@ -639,6 +647,16 @@ void BossAI::_JustEngagedWith()
             return;
         }
         instance->SetBossState(_bossId, IN_PROGRESS);
+    }
+}
+
+void BossAI::_EnterEvadeMode(EvadeReason why)
+{
+    CreatureAI::EnterEvadeMode(why);
+    if (instance && instance->GetBossState(_bossId) != DONE)
+    {
+        instance->SetBossState(_bossId, NOT_STARTED);
+        instance->SaveToDB();
     }
 }
 

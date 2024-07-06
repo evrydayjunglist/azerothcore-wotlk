@@ -472,11 +472,11 @@ struct boss_kaelthas : public BossAI
             {
                 DoCastRandomTarget(SPELL_FLAME_STRIKE, 0, 100.0f);
             }, 30250ms, 50650ms);
-            ScheduleTimedEvent(20000ms, [&]
+            ScheduleTimedEvent(50000ms, [&]
             {
                 Talk(SAY_SUMMON_PHOENIX);
                 DoCastSelf(SPELL_PHOENIX);
-            }, 31450ms, 66550ms);
+            }, 61450ms, 96550ms);
             ScheduleTimedEvent(5s, [&]
             {
                 scheduler.DelayAll(30s);
@@ -498,8 +498,12 @@ struct boss_kaelthas : public BossAI
                 {
                     summons.DespawnEntry(NPC_NETHER_VAPOR);
                     scheduler.CancelGroup(GROUP_NETHER_BEAM);
-                    me->SetTarget(me->GetVictim()->GetGUID());
-                    me->GetMotionMaster()->MoveChase(me->GetVictim());
+
+                    if (Unit* victim = me->GetVictim())
+                    {
+                        me->SetTarget(victim->GetGUID());
+                        me->GetMotionMaster()->MoveChase(victim);
+                    }
                 });
                 me->SetTarget();
                 me->GetMotionMaster()->Clear();
@@ -731,13 +735,13 @@ struct boss_kaelthas : public BossAI
         {
             DoCastRandomTarget(SPELL_FLAME_STRIKE, 0, 100.0f);
         }, 30250ms, 50650ms);
-        ScheduleTimedEvent(30000ms, [&]
+        ScheduleTimedEvent(50000ms, [&]
         {
             Talk(SAY_SUMMON_PHOENIX);
             DoCastSelf(SPELL_PHOENIX);
-        }, 31450ms, 66550ms);
+        }, 35450ms, 41550ms);
         //sequence
-        ScheduleTimedEvent(20s, [&]
+        ScheduleTimedEvent(20s, 23s, [&]
         {
             if (roll_chance_i(50))
                 Talk(SAY_MINDCONTROL);
@@ -746,17 +750,7 @@ struct boss_kaelthas : public BossAI
             {
                 DoCastSelf(SPELL_ARCANE_DISRUPTION);
             });
-        }, 50s);
-        ScheduleTimedEvent(43s, [&]
-        {
-            if (roll_chance_i(50))
-                Talk(SAY_MINDCONTROL);
-            me->CastCustomSpell(SPELL_MIND_CONTROL, SPELLVALUE_MAX_TARGETS, 3, me, false);
-            scheduler.Schedule(3s, [this](TaskContext)
-            {
-                DoCastSelf(SPELL_ARCANE_DISRUPTION);
-            });
-        }, 53s);
+        }, 23s, 26s);
         ScheduleTimedEvent(60s, [&]
         {
             Talk(SAY_PYROBLAST);
@@ -813,9 +807,9 @@ struct npc_lord_sanguinar : public ScriptedAI
         {
             Talk(SAY_SANGUINAR_AGGRO);
         }
-        ScheduleTimedEvent(0s, [&]{
+        ScheduleTimedEvent(0s, 2s, [&]{
             DoCastSelf(SPELL_BELLOWING_ROAR);
-        }, 15s);
+        }, 30s, 40s);
     }
 
     void JustDied(Unit* /*killer*/) override
@@ -831,6 +825,7 @@ struct npc_lord_sanguinar : public ScriptedAI
                 _hasDied = true;
             }
         }
+        scheduler.CancelAll();
     }
 
     void UpdateAI(uint32 diff) override
@@ -919,6 +914,7 @@ struct npc_capernian : public ScriptedAI
                 _hasDied = true;
             }
         }
+        scheduler.CancelAll();
     }
 
     void UpdateAI(uint32 diff) override
@@ -982,6 +978,7 @@ struct npc_telonicus : public ScriptedAI
                 _hasDied = true;
             }
         }
+        scheduler.CancelAll();
     }
 
     void UpdateAI(uint32 diff) override
@@ -1016,7 +1013,6 @@ struct npc_thaladred : public ScriptedAI
         scheduler.CancelAll();
         me->SetReactState(REACT_PASSIVE);
         _hasDied = false;
-        me->SetWalk(false);
     }
 
     void JustEngagedWith(Unit* /*who*/) override
@@ -1025,7 +1021,6 @@ struct npc_thaladred : public ScriptedAI
         {
             Talk(SAY_THALADRED_AGGRO);
         }
-        me->SetWalk(true);
         ScheduleTimedEvent(100ms, [&]
         {
             DoResetThreatList();
@@ -1068,6 +1063,7 @@ struct npc_thaladred : public ScriptedAI
                 _hasDied = true;
             }
         }
+        scheduler.CancelAll();
     }
 
     void UpdateAI(uint32 diff) override

@@ -1451,6 +1451,7 @@ public:
     bool SatisfyQuestSeasonal(Quest const* qInfo, bool msg) const;
     bool GiveQuestSourceItem(Quest const* quest);
     bool TakeQuestSourceItem(uint32 questId, bool msg);
+    uint32 CalculateQuestRewardXP(Quest const* quest);
     [[nodiscard]] bool GetQuestRewardStatus(uint32 quest_id) const;
     [[nodiscard]] QuestStatus GetQuestStatus(uint32 quest_id) const;
     void SetQuestStatus(uint32 questId, QuestStatus status, bool update = true);
@@ -1974,7 +1975,7 @@ public:
     [[nodiscard]] WorldSession* GetSession() const { return m_session; }
     void SetSession(WorldSession* sess) { m_session = sess; }
 
-    void BuildCreateUpdateBlockForPlayer(UpdateData* data, Player* target) const override;
+    void BuildCreateUpdateBlockForPlayer(UpdateData* data, Player* target) override;
     void DestroyForPlayer(Player* target, bool onDeath = false) const override;
     void SendLogXPGain(uint32 GivenXP, Unit* victim, uint32 BonusXP, bool recruitAFriend = false, float group_rate = 1.0f);
 
@@ -2146,6 +2147,8 @@ public:
 
     void SetDrunkValue(uint8 newDrunkValue, uint32 itemId = 0);
     [[nodiscard]] uint8 GetDrunkValue() const { return GetByteValue(PLAYER_BYTES_3, 1); }
+    [[nodiscard]] int32 GetFakeDrunkValue() const { return GetInt32Value(PLAYER_FAKE_INEBRIATION); }
+    void UpdateInvisibilityDrunkDetect();
     static DrunkenState GetDrunkenstateByValue(uint8 value);
 
     [[nodiscard]] uint32 GetDeathTimer() const { return m_deathTimer; }
@@ -2346,7 +2349,6 @@ public:
     float m_homebindX;
     float m_homebindY;
     float m_homebindZ;
-    float m_homebindO;
 
     [[nodiscard]] WorldLocation GetStartPosition() const;
 
