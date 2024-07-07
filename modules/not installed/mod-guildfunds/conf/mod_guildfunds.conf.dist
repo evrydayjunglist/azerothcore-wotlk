@@ -1,0 +1,18 @@
+[worldserver]
+
+##
+# Print information to the player about the amount of extra gold that got deposited to the guild bank
+GuildFunds.ShowInfo = 1
+##
+
+##
+# The amount, in percentage, of money looted to add to the guild bank
+# Set to 0 to disable
+GuildFunds.Looted = 10
+##
+
+##
+# The amount, in percentage, of money gained from quests to add to the guild bank
+# Set to 0 to disable
+GuildFunds.Quests = 3
+##

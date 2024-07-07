@@ -1,0 +1,71 @@
+[worldserver]
+
+#################################
+#
+# Enable different items to be purchased
+# Heirlooms include armor pieces, weapons and tome of cold weather flight
+# Glyphs include every major and minor glyph for all classes
+# Gems include all glyphs relevant for level 80 classes
+# Containers include the lowest amount of slot bags by default
+#
+
+Assistant.Heirlooms.Enabled  = 1
+Assistant.Glyphs.Enabled     = 1
+Assistant.Gems.Enabled       = 1
+Assistant.Containers.Enabled = 1
+
+#################################
+
+#################################
+#
+# Enable utility features
+# This includes name change, character customization, race change and faction change
+# The cost is set in copper
+#
+
+Assistant.Utilities.Enabled            = 1
+Assistant.Utilities.NameChange.Cost    = 100000
+Assistant.Utilities.Customize.Cost     = 500000
+Assistant.Utilities.RaceChange.Cost    = 5000000
+Assistant.Utilities.FactionChange.Cost = 10000000
+
+#################################
+
+#################################
+#
+# Unlock flight paths based on the players level
+# The cost is set in copper
+#
+
+Assistant.FlightPaths.Vanilla.Enabled                  = 1
+Assistant.FlightPaths.Vanilla.RequiredLevel            = 60
+Assistant.FlightPaths.Vanilla.Cost                     = 250000
+Assistant.FlightPaths.BurningCrusade.Enabled           = 1
+Assistant.FlightPaths.BurningCrusade.RequiredLevel     = 70
+Assistant.FlightPaths.BurningCrusade.Cost              = 1000000
+Assistant.FlightPaths.WrathOfTheLichKing.Enabled       = 0
+Assistant.FlightPaths.WrathOfTheLichKing.RequiredLevel = 80
+Assistant.FlightPaths.WrathOfTheLichKing.Cost          = 2500000
+
+#################################
+
+#################################
+#
+# Increase profession skills by spending gold
+# The cost is set in copper
+#
+
+Assistant.Professions.Apprentice.Enabled  = 1
+Assistant.Professions.Apprentice.Cost     = 1000000
+Assistant.Professions.Journeyman.Enabled  = 1
+Assistant.Professions.Journeyman.Cost     = 2500000
+Assistant.Professions.Expert.Enabled      = 1
+Assistant.Professions.Expert.Cost         = 5000000
+Assistant.Professions.Artisan.Enabled     = 1
+Assistant.Professions.Artisan.Cost        = 7500000
+Assistant.Professions.Master.Enabled      = 0
+Assistant.Professions.Master.Cost         = 12500000
+Assistant.Professions.GrandMaster.Enabled = 0
+Assistant.Professions.GrandMaster.Cost    = 25000000
+
+#################################

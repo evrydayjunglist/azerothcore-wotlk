@@ -1,0 +1,23 @@
+[worldserver]
+########################################
+# Account Achievements Configuration
+########################################
+# 
+#	Account.Achievements.Enable
+#		Description: Enable/Disable the module.
+#					0 - (Disabled)
+#		Default:	1 - (Enabled)
+#
+
+Account.Achievements.Enable = 1
+
+#
+#	Account.Achievements.Announce
+#		Description: Announce to the player the server is using the module on login.
+#					0 - (Disabled)
+#		Default:	1 - (Enabled)
+#
+
+Account.Achievements.Announce = 1
+
+
