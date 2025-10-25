@@ -1,0 +1,6 @@
+[submodule "modules/mod-eluna"]
+	path = modules/mod-eluna
+	url = https://github.com/evrydayjunglist/mod-eluna.git
+[submodule "modules/mod-playerbots"]
+	path = modules/mod-playerbots
+	url = https://github.com/evrydayjunglist/mod-playerbots.git
