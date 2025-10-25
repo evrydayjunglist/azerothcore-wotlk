@@ -16,7 +16,7 @@
  */
 
 #include "WeatherScript.h"
-#include "ALEScript.h"
+#include "ElunaScript.h"
 #include "ScriptMgr.h"
 #include "ScriptMgrMacros.h"
 
@@ -24,7 +24,7 @@ void ScriptMgr::OnWeatherChange(Weather* weather, WeatherState state, float grad
 {
     ASSERT(weather);
 
-    ExecuteScript<ALEScript>([&](ALEScript* script)
+    ExecuteScript<ElunaScript>([&](ElunaScript* script)
     {
         script->OnWeatherChange(weather, state, grade);
     });
