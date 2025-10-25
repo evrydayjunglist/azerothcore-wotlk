@@ -4,3 +4,6 @@
 [submodule "modules/mod-playerbots"]
 	path = modules/mod-playerbots
 	url = https://github.com/evrydayjunglist/mod-playerbots.git
+[submodule "modules/mod-worgoblin"]
+	path = modules/mod-worgoblin
+	url = https://github.com/evrydayjunglist/mod-worgoblin.git
