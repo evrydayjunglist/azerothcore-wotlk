@@ -34,3 +34,18 @@
 [submodule "modules/mod-weekendbonus"]
 	path = modules/mod-weekendbonus
 	url = https://github.com/evrydayjunglist/mod-weekendbonus.git
+[submodule "modules/mod-money-for-kills"]
+	path = modules/mod-money-for-kills
+	url = https://github.com/evrydayjunglist/mod-money-for-kills.git
+[submodule "modules/mod-pvp-titles"]
+	path = modules/mod-pvp-titles
+	url = https://github.com/evrydayjunglist/mod-pvp-titles.git
+[submodule "modules/mod-individual-xp"]
+	path = modules/mod-individual-xp
+	url = https://github.com/evrydayjunglist/mod-individual-xp.git
+[submodule "modules/mod-better-item-reloading"]
+	path = modules/mod-better-item-reloading
+	url = https://github.com/evrydayjunglist/mod-better-item-reloading.git
+[submodule "modules/mod-aoe-loot"]
+	path = modules/mod-aoe-loot
+	url = https://github.com/evrydayjunglist/mod-aoe-loot.git
