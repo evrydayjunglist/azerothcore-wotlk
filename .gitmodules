@@ -16,3 +16,18 @@
 [submodule "modules/mod-acore-subscriptions"]
 	path = modules/mod-acore-subscriptions
 	url = https://github.com/evrydayjunglist/mod-acore-subscriptions.git
+[submodule "modules/mod-individual-progression"]
+	path = modules/mod-individual-progression
+	url = https://github.com/evrydayjunglist/mod-individual-progression.git
+[submodule "modules/mod-quest-loot-party"]
+	path = modules/mod-quest-loot-party
+	url = https://github.com/evrydayjunglist/mod-quest-loot-party.git
+[submodule "modules/mod-reagent-bank-account"]
+	path = modules/mod-reagent-bank-account
+	url = https://github.com/evrydayjunglist/mod-reagent-bank-account.git
+[submodule "modules/mod-leech"]
+	path = modules/mod-leech
+	url = https://github.com/evrydayjunglist/mod-leech.git
+[submodule "modules/mod-learnspells"]
+	path = modules/mod-learnspells
+	url = https://github.com/evrydayjunglist/mod-learnspells.git
