@@ -49,3 +49,30 @@
 [submodule "modules/mod-aoe-loot"]
 	path = modules/mod-aoe-loot
 	url = https://github.com/evrydayjunglist/mod-aoe-loot.git
+[submodule "modules/mod-ah-bot"]
+	path = modules/mod-ah-bot
+	url = https://github.com/evrydayjunglist/mod-ah-bot.git
+[submodule "modules/mod-auctionator"]
+	path = modules/mod-auctionator
+	url = https://github.com/evrydayjunglist/mod-auctionator.git
+[submodule "modules/mod-assistant"]
+	path = modules/mod-assistant
+	url = https://github.com/evrydayjunglist/mod-assistant.git
+[submodule "modules/mod-cfbg"]
+	path = modules/mod-cfbg
+	url = https://github.com/evrydayjunglist/mod-cfbg.git
+[submodule "modules/mod-challenge-modes"]
+	path = modules/mod-challenge-modes
+	url = https://github.com/evrydayjunglist/mod-challenge-modes.git
+[submodule "modules/mod-playerbot-reset-instances"]
+	path = modules/mod-playerbot-reset-instances
+	url = https://github.com/evrydayjunglist/mod-playerbot-reset-instances.git
+[submodule "modules/mod-mythic-plus"]
+	path = modules/mod-mythic-plus
+	url = https://github.com/evrydayjunglist/mod-mythic-plus.git
+[submodule "modules/mod-pvpstats-announcer"]
+	path = modules/mod-pvpstats-announcer
+	url = https://github.com/evrydayjunglist/mod-pvpstats-announcer.git
+[submodule "modules/mod-quest-status"]
+	path = modules/mod-quest-status
+	url = https://github.com/evrydayjunglist/mod-quest-status.git
