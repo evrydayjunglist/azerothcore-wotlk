@@ -13,3 +13,6 @@
 [submodule "modules/mod-transmog"]
 	path = modules/mod-transmog
 	url = https://github.com/evrydayjunglist/mod-transmog.git
+[submodule "modules/mod-acore-subscriptions"]
+	path = modules/mod-acore-subscriptions
+	url = https://github.com/evrydayjunglist/mod-acore-subscriptions.git
