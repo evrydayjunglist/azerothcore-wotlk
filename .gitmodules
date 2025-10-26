@@ -7,3 +7,6 @@
 [submodule "modules/mod-worgoblin"]
 	path = modules/mod-worgoblin
 	url = https://github.com/evrydayjunglist/mod-worgoblin.git
+[submodule "modules/mod-random-suffix"]
+	path = modules/mod-random-suffix
+	url = https://github.com/evrydayjunglist/mod-random-suffix.git
