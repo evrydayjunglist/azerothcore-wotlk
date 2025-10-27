@@ -31,9 +31,6 @@
 [submodule "modules/mod-learnspells"]
 	path = modules/mod-learnspells
 	url = https://github.com/evrydayjunglist/mod-learnspells.git
-[submodule "modules/mod-weekendbonus"]
-	path = modules/mod-weekendbonus
-	url = https://github.com/evrydayjunglist/mod-weekendbonus.git
 [submodule "modules/mod-money-for-kills"]
 	path = modules/mod-money-for-kills
 	url = https://github.com/evrydayjunglist/mod-money-for-kills.git
