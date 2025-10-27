@@ -97,3 +97,9 @@
 [submodule "modules/mod-real-online"]
 	path = modules/mod-real-online
 	url = https://github.com/evrydayjunglist/mod-real-online.git
+[submodule "modules/mod-npc-beastmaster"]
+	path = modules/mod-npc-beastmaster
+	url = https://github.com/evrydayjunglist/mod-npc-beastmaster.git
+[submodule "modules/mod-npc-free-professions"]
+	path = modules/mod-npc-free-professions
+	url = https://github.com/evrydayjunglist/mod-npc-free-professions.git
