@@ -100,3 +100,33 @@
 [submodule "modules/mod-npc-free-professions"]
 	path = modules/mod-npc-free-professions
 	url = https://github.com/evrydayjunglist/mod-npc-free-professions.git
+[submodule "modules/mod-dynamic-loot-rates"]
+	path = modules/mod-dynamic-loot-rates
+	url = https://github.com/evrydayjunglist/mod-dynamic-loot-rates.git
+[submodule "modules/mod-zone-difficulty"]
+	path = modules/mod-zone-difficulty
+	url = https://github.com/evrydayjunglist/mod-zone-difficulty.git
+[submodule "modules/DungeonRespawn"]
+	path = modules/DungeonRespawn
+	url = https://github.com/evrydayjunglist/DungeonRespawn.git
+[submodule "modules/mod-npc-buffer"]
+	path = modules/mod-npc-buffer
+	url = https://github.com/evrydayjunglist/mod-npc-buffer.git
+[submodule "modules/mod-npc-all-mounts"]
+	path = modules/mod-npc-all-mounts
+	url = https://github.com/evrydayjunglist/mod-npc-all-mounts.git
+[submodule "modules/mod-npc-enchanter"]
+	path = modules/mod-npc-enchanter
+	url = https://github.com/evrydayjunglist/mod-npc-enchanter.git
+[submodule "modules/mod-npc-titles-tokens"]
+	path = modules/mod-npc-titles-tokens
+	url = https://github.com/evrydayjunglist/mod-npc-titles-tokens.git
+[submodule "modules/mod-talentbutton"]
+	path = modules/mod-talentbutton
+	url = https://github.com/evrydayjunglist/mod-talentbutton.git
+[submodule "modules/mod-who-logged"]
+	path = modules/mod-who-logged
+	url = https://github.com/evrydayjunglist/mod-who-logged.git
+[submodule "modules/mod-TimeIsTime"]
+	path = modules/mod-TimeIsTime
+	url = https://github.com/evrydayjunglist/mod-TimeIsTime
