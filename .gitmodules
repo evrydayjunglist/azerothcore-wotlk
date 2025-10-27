@@ -76,3 +76,9 @@
 [submodule "modules/mod-quest-status"]
 	path = modules/mod-quest-status
 	url = https://github.com/evrydayjunglist/mod-quest-status.git
+[submodule "modules/mod-weekend-xp"]
+	path = modules/mod-weekend-xp
+	url = https://github.com/evrydayjunglist/mod-weekend-xp.git
+[submodule "modules/mod-reward-played-time-improved"]
+	path = modules/mod-reward-played-time-improved
+	url = https://github.com/evrydayjunglist/mod-reward-played-time-improved.git
