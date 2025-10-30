@@ -130,3 +130,6 @@
 [submodule "modules/mod-ale"]
 	path = modules/mod-ale
 	url = https://github.com/evrydayjunglist/mod-ale.git
+[submodule "modules/mod-setxpbar"]
+	path = modules/mod-setxpbar
+	url = https://github.com/evrydayjunglist/mod-setxpbar
