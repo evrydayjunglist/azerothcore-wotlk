@@ -34,9 +34,6 @@
 [submodule "modules/mod-pvp-titles"]
 	path = modules/mod-pvp-titles
 	url = https://github.com/evrydayjunglist/mod-pvp-titles.git
-[submodule "modules/mod-individual-xp"]
-	path = modules/mod-individual-xp
-	url = https://github.com/evrydayjunglist/mod-individual-xp.git
 [submodule "modules/mod-better-item-reloading"]
 	path = modules/mod-better-item-reloading
 	url = https://github.com/evrydayjunglist/mod-better-item-reloading.git
@@ -132,4 +129,4 @@
 	url = https://github.com/evrydayjunglist/mod-ale.git
 [submodule "modules/mod-setxpbar"]
 	path = modules/mod-setxpbar
-	url = https://github.com/evrydayjunglist/mod-setxpbar
+	url = https://github.com/evrydayjunglist/mod-setxpbar.git
