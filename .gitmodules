@@ -127,9 +127,6 @@
 [submodule "modules/mod-TimeIsTime"]
 	path = modules/mod-TimeIsTime
 	url = https://github.com/evrydayjunglist/mod-TimeIsTime.git
-[submodule "modules/mod-trial-of-finality"]
-	path = modules/mod-trial-of-finality
-	url = https://github.com/evrydayjunglist/mod-trial-of-finality.git
 [submodule "modules/mod-ale"]
 	path = modules/mod-ale
 	url = https://github.com/evrydayjunglist/mod-ale.git
